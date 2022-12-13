@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    background-color: rgb(82, 104, 182) ;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px auto;
+    width: 50%;
+}

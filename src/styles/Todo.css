@@ -1,0 +1,85 @@
+#todo-container{
+    width: 100%;
+    background-color: rgb(82, 104, 182) ;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    box-sizing: border-box;
+    height: 100vh;
+}
+#header{
+    margin-top: 27px;
+}
+#task-contaainer{
+    margin-top: 13px;
+    display: flex;
+}
+#task{
+    width: 270px;
+    height: 20px;
+    max-width: 260px;
+    max-height: 20px;
+    border: 1.4px solid black;
+    border-radius: 3px;
+}
+#btn{
+    width: 80px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 27px;
+}    
+#btn:hover{
+    width: 80px;
+    background-color: rgb(104, 167, 146);
+    border: 1px solid black;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 27px;
+}    
+.taskElements{
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    margin: 5px 0;
+    padding: 3px;
+    background-color: rgb(205, 175, 200);
+    border-radius: 3px;
+}
+.delete-btn{
+    width: 40px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 20px;
+    cursor: pointer;
+}
+.edit-btn{
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 20px;
+    cursor: pointer;
+    background-color: rgb(130, 172, 85);
+}
+#save-btn{
+    width: 80px;
+    background-color: rgb(190, 224, 42);
+    border: 1px solid black;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 27px;
+}
+#save-btn:hover{
+    width: 80px;
+    background-color: rgb(151, 185, 49);
+    border: 1px solid black;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 27px;
+}
